@@ -16,7 +16,7 @@ const SurfLessons = () => {
         />
         <div className="flex flex-col flex-1 gap-4">
           <p className="text-left text-lg mb-4">
-            Buenavista is one of Sorsogon's best surf spots, with consistent
+            Buenavista is one of Sorsogon&apos;s best surf spots, with consistent
             waves for both beginners and pros. At Angel Surf, we make it easy to
             get started or level up:
           </p>
@@ -39,10 +39,12 @@ const SurfLessons = () => {
           <div className="sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3">
             <div className="group relative block rounded-xl overflow-hidden focus:outline-hidden">
               <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
-                <img
+                <Image
                   className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
                   src="https://plus.unsplash.com/premium_photo-1684517009001-0d3a715dfd91?q=80&w=1742&auto=format&fit=crop"
                   alt="Beginner surf lesson with instructor"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
@@ -56,10 +58,12 @@ const SurfLessons = () => {
           <div className="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3">
             <div className="group relative block rounded-xl overflow-hidden focus:outline-hidden">
               <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
-                <img
+                <Image
                   className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
                   src="https://images.unsplash.com/photo-1751029538988-2d5b73a7e5a2?q=80&w=774&auto=format&fit=crop"
                   alt="Advanced surfing techniques"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
@@ -73,10 +77,12 @@ const SurfLessons = () => {
           <div className="col-span-12 sm:col-span-6 md:col-span-4">
             <div className="group relative block rounded-xl overflow-hidden focus:outline-hidden">
               <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
-                <img
+                <Image
                   className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
                   src="https://images.unsplash.com/photo-1717465760660-e2edf58fcc4f?q=80&w=1746&auto=format&fit=crop"
                   alt="Kayak rental and water activities"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
@@ -90,10 +96,12 @@ const SurfLessons = () => {
           <div className="col-span-12 md:col-span-4">
             <div className="group relative block rounded-xl overflow-hidden focus:outline-hidden">
               <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
-                <img
+                <Image
                   className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
                   src="https://images.unsplash.com/photo-1735567063976-730a3b47c12d?q=80&w=774&auto=format&fit=crop"
                   alt="Surfboard rental and equipment"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
@@ -107,10 +115,12 @@ const SurfLessons = () => {
           <div className="col-span-12 sm:col-span-6 md:col-span-4">
             <div className="group relative block rounded-xl overflow-hidden focus:outline-hidden">
               <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
-                <img
+                <Image
                   className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
                   src="https://images.unsplash.com/photo-1564737999788-02811faaf4bd?q=80&w=1740&auto=format&fit=crop"
                   alt="Group surf lessons and beach activities"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">

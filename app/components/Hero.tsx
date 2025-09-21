@@ -187,7 +187,7 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto flex flex-col items-center justify-center gap-8">
           <p className="hero-text text-2xl md:text-4xl leading-8md:leading-11 text-center text-blue-500">
             Wake up to the waves, surf with local surfing champs, and hang out
-            in our beachfront café. Whether you’re here to ride, relax, or
+            in our beachfront café. Whether you&apos;re here to ride, relax, or
             connect with fellow travelers, Angel Surf is your{" "}
             <span className="font-bold">
               laid-back surf haven with hostel-style vibes.

@@ -12,19 +12,19 @@ const Testimonials = () => {
             Loved by Surfers, Families, Backpackers & Beach Lovers
           </h2>
           <p className="text-lg text-center text-white">
-            Guests rave about Angel Surf's beachfront location, family and
+            Guests rave about Angel Surf&apos;s beachfront location, family and
             backpacker-friendly atmosphere, and the warmth of our community.
-            Whether you're booking a private room or joining our new
-            hostel-style bunk accommodations, you'll feel right at home.
+            Whether you&apos;re booking a private room or joining our new
+            hostel-style bunk accommodations, you&apos;ll feel right at home.
           </p>
         </div>
         <div className="flex flex-row flex-wrap justify-center items-center gap-8">
           <div className="testimonial-card flex-1 max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
             <div className="testimonial-card-body flex flex-col gap-4 p-4">
               <p className="text-lg text-center italic">
-                "Angel Surf is the perfect place to stay for surfers and beach
+                &quot;Angel Surf is the perfect place to stay for surfers and beach
                 lovers. The staff is friendly and the location is perfect for
-                surfing."
+                surfing.&quot;
               </p>
             </div>
             <div className="testimonial-card-footer flex flex-row justify-between items-center bg-gray-100 p-4">
@@ -48,9 +48,9 @@ const Testimonials = () => {
           <div className="testimonial-card flex-1 max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
             <div className="testimonial-card-body flex flex-col gap-4 p-4">
               <p className="text-lg text-center italic">
-                "Angel Surf is the perfect place to stay for surfers and beach
+                &quot;Angel Surf is the perfect place to stay for surfers and beach
                 lovers. The staff is friendly and the location is perfect for
-                surfing."
+                surfing.&quot;
               </p>
             </div>
             <div className="testimonial-card-footer flex flex-row justify-between items-center bg-gray-100 p-4">
@@ -74,9 +74,9 @@ const Testimonials = () => {
           <div className="testimonial-card flex-1 max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
             <div className="testimonial-card-body flex flex-col gap-4 p-4">
               <p className="text-lg text-center italic">
-                "Angel Surf is the perfect place to stay for surfers and beach
+                &quot;Angel Surf is the perfect place to stay for surfers and beach
                 lovers. The staff is friendly and the location is perfect for
-                surfing."
+                surfing.&quot;
               </p>
             </div>
             <div className="testimonial-card-footer flex flex-row justify-between items-center bg-gray-100 p-4">

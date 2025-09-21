@@ -151,8 +151,8 @@ const NearbyTours = () => {
                       className="rounded-xl object-cover w-full h-full"
                       src="/images/subig-matnog.jpg"
                       alt="Features Image"
-                      width={720}
-                      height={560}
+                      width={699}
+                      height={520}
                     />
                   </div>
 
@@ -162,10 +162,12 @@ const NearbyTours = () => {
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-2"
                   >
-                    <img
+                    <Image
                       className="rounded-xl object-cover w-full h-full"
                       src="/images/hot-spring.jpg"
                       alt="Features Image"
+                      width={699}
+                      height={520}
                     />
                   </div>
 
@@ -175,10 +177,12 @@ const NearbyTours = () => {
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-3"
                   >
-                    <img
+                    <Image
                       className="rounded-xl"
                       src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
                       alt="Features Image"
+                      width={699}
+                      height={520}
                     />
                   </div>
 
@@ -188,10 +192,12 @@ const NearbyTours = () => {
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-4"
                   >
-                    <img
+                    <Image
                       className="rounded-xl"
                       src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
                       alt="Features Image"
+                      width={699}
+                      height={520}
                     />
                   </div>
 
@@ -201,10 +207,12 @@ const NearbyTours = () => {
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-5"
                   >
-                    <img
+                    <Image
                       className="rounded-xl"
                       src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
                       alt="Features Image"
+                      width={699}
+                      height={520}
                     />
                   </div>
 
@@ -214,10 +222,12 @@ const NearbyTours = () => {
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-6"
                   >
-                    <img
+                    <Image
                       className="rounded-xl"
                       src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
                       alt="Features Image"
+                      width={699}
+                      height={520}
                     />
                   </div>
                 </div>
