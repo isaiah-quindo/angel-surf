@@ -19,7 +19,7 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="flex flex-row flex-wrap justify-center items-center gap-8">
-          <div className="testimonial-card flex-1 max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
+          <div className="testimonial-card max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
             <div className="testimonial-card-body flex flex-col gap-4 p-4">
               <p className="text-lg text-center italic">
                 &quot;Angel Surf is the perfect place to stay for surfers and beach
@@ -45,7 +45,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="testimonial-card flex-1 max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
+          <div className="testimonial-card max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
             <div className="testimonial-card-body flex flex-col gap-4 p-4">
               <p className="text-lg text-center italic">
                 &quot;Angel Surf is the perfect place to stay for surfers and beach
@@ -71,7 +71,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="testimonial-card flex-1 max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
+          <div className="testimonial-card max-w-md mx-auto bg-white rounded-2xl text-foreground overflow-hidden">
             <div className="testimonial-card-body flex flex-col gap-4 p-4">
               <p className="text-lg text-center italic">
                 &quot;Angel Surf is the perfect place to stay for surfers and beach

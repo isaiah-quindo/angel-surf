@@ -163,7 +163,7 @@ const Hero = () => {
       <div className="w-full max-w-7xl mx-auto p-4 md:p-12">
         <div className="flex flex-row justify-between items-center gap-4 mb-8">
           <Image
-            className="turtle-bike hidden md:block"
+            className="turtle-bike hidden lg:block"
             src="/images/turtle.svg"
             alt="Turtle Bike"
             width={250}
@@ -177,7 +177,7 @@ const Hero = () => {
             height={250}
           />
           <Image
-            className="crab hidden md:block"
+            className="crab hidden lg:block"
             src="/images/crab.svg"
             alt="Crab"
             width={250}
