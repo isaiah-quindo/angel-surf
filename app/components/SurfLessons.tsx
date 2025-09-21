@@ -7,16 +7,16 @@ const SurfLessons = () => {
       <h2 className="text-5xl text-center text-blue-500 folkies-vantage mb-8">
         Surf with the Local Champs
       </h2>
-      <div className="flex flex-row justify-center items-start gap-8">
+      <div className="flex flex-row flex-wrap justify-center items-start gap-8">
         <Image
           src="/images/turtle-bike.svg"
           alt="Surf Lessons"
-          width={500}
-          height={500}
+          width={350}
+          height={350}
         />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col flex-1 gap-4">
           <p className="text-left text-lg mb-4">
-            Buenavista is one of Sorsogon’s best surf spots, with consistent
+            Buenavista is one of Sorsogon's best surf spots, with consistent
             waves for both beginners and pros. At Angel Surf, we make it easy to
             get started or level up:
           </p>

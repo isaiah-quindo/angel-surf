@@ -145,11 +145,11 @@ const NearbyTours = () => {
                     id="tabs-with-card-1"
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-1"
-                    className="h-[669px] w-[520px]"
+                    className="max-h-[669px] max-w-[520px]"
                   >
                     <Image
                       className="rounded-xl object-cover w-full h-full"
-                      src="/images/subig-matnog.webp"
+                      src="/images/subig-matnog.jpg"
                       alt="Features Image"
                       width={720}
                       height={560}
@@ -158,7 +158,7 @@ const NearbyTours = () => {
 
                   <div
                     id="tabs-with-card-2"
-                    className="hidden h-[669px] w-[520px]"
+                    className="hidden max-h-[669px] max-w-[520px]"
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-2"
                   >
@@ -171,7 +171,7 @@ const NearbyTours = () => {
 
                   <div
                     id="tabs-with-card-3"
-                    className="hidden"
+                    className="hidden max-h-[669px] max-w-[520px]"
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-3"
                   >
@@ -184,7 +184,7 @@ const NearbyTours = () => {
 
                   <div
                     id="tabs-with-card-4"
-                    className="hidden"
+                    className="hidden max-h-[669px] max-w-[520px]"
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-4"
                   >
@@ -197,7 +197,7 @@ const NearbyTours = () => {
 
                   <div
                     id="tabs-with-card-5"
-                    className="hidden"
+                    className="hidden max-h-[669px] max-w-[520px]"
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-5"
                   >
@@ -210,7 +210,7 @@ const NearbyTours = () => {
 
                   <div
                     id="tabs-with-card-6"
-                    className="hidden"
+                    className="hidden max-h-[669px] max-w-[520px]"
                     role="tabpanel"
                     aria-labelledby="tabs-with-card-item-6"
                   >

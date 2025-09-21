@@ -161,23 +161,23 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full max-w-7xl mx-auto p-4 md:p-12">
-        <div className="flex flex-row justify-between items-center gap-4">
+        <div className="flex flex-row justify-between items-center gap-4 mb-8">
           <Image
-            className="turtle-bike"
+            className="turtle-bike hidden md:block"
             src="/images/turtle.svg"
             alt="Turtle Bike"
             width={250}
             height={250}
           />
           <Image
-            className="waves"
+            className="waves mx-auto"
             src="/images/waves.svg"
             alt="Waves"
             width={250}
             height={250}
           />
           <Image
-            className="crab"
+            className="crab hidden md:block"
             src="/images/crab.svg"
             alt="Crab"
             width={250}
@@ -185,7 +185,7 @@ const Hero = () => {
           />
         </div>
         <div className="max-w-3xl mx-auto flex flex-col items-center justify-center gap-8">
-          <p className="hero-text text-4xl leading-11 text-center text-blue-500">
+          <p className="hero-text text-2xl md:text-4xl leading-8md:leading-11 text-center text-blue-500">
             Wake up to the waves, surf with local surfing champs, and hang out
             in our beachfront café. Whether you’re here to ride, relax, or
             connect with fellow travelers, Angel Surf is your{" "}
