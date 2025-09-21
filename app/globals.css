@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@import "preline/variants.css";
+@source "../node_modules/preline/dist/*.js";
+
+/* Custom Fonts */
+@font-face {
+  font-family: 'Folkies Vantage';
+  src: url('/fonts/folkies-vantage-sans.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Folkies Vantage Script';
+  src: url('/fonts/folkies-vantage-script.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffe4bf;
+  --foreground: #3E3E3E;
+
+  --color-primary: #035CC5;
+  --color-secondary: #FFE971;
+
+  --color-blue-500: #035CC5;
+  --color-blue-600: #024387;
+
+  --color-pink-500: #FF9DAE;
+  --color-red-500: #E3480C;
+  --color-green-500: #27a82c;
+
+  --color-yellow-500: #FFE971;
+  --color-yellow-600: #FFD948;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-primary {
+  color: var(--background);
+}
+
+.btn {
+  padding: 16px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-primary {
+  background-color: var(--color-blue-500);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-blue-600);
+}
+
+.btn-primary:active {
+  background-color: var(--color-blue-600);
+}
+
+.folkies-vantage {
+  font-family: 'Folkies Vantage', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.tagline {
+  font-family: 'Folkies Vantage Script', Arial, Helvetica, sans-serif;
+}
+
