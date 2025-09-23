@@ -133,10 +133,10 @@ const Hero = () => {
 
   return (
     <>
-      <div className="mx-auto max-h-screen flex flex-col p-4 md:p-12">
+      <div id="hero" className="mx-auto max-h-screen flex flex-col p-4 md:p-12">
         <div className="hero relative flex flex-col justify-center items-center rounded-2xl overflow-hidden h-200 bg-blue-500">
           <Image
-            className="hero-image w-full h-auto object-cover filter blur-sm"
+            className="hero-image w-full h-full object-cover filter blur-sm"
             src="/images/surfing-bg.jpg"
             alt="Surfing Background"
             width={1000}
@@ -160,6 +160,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
       <div className="w-full max-w-7xl mx-auto p-4 md:p-12">
         <div className="flex flex-row justify-between items-center gap-4 mb-8">
           <Image

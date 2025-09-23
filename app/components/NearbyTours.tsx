@@ -5,7 +5,10 @@ const NearbyTours = () => {
   return (
     <>
       {/* Features */}
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div
+        id="nearby-tours"
+        className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto"
+      >
         <div className="relative p-6 md:p-16">
           {/* Grid */}
           <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
@@ -150,7 +153,7 @@ const NearbyTours = () => {
                     <Image
                       className="rounded-xl object-cover w-full h-full"
                       src="/images/subig-matnog.jpg"
-                      alt="Features Image"
+                      alt="Subic, Matnog"
                       width={699}
                       height={520}
                     />
@@ -165,7 +168,7 @@ const NearbyTours = () => {
                     <Image
                       className="rounded-xl object-cover w-full h-full"
                       src="/images/hot-spring.jpg"
-                      alt="Features Image"
+                      alt="San Benon Hot Spring"
                       width={699}
                       height={520}
                     />
@@ -179,8 +182,8 @@ const NearbyTours = () => {
                   >
                     <Image
                       className="rounded-xl"
-                      src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
-                      alt="Features Image"
+                      src="/images/bulusan-lake.jpg"
+                      alt="Bulusan Lake"
                       width={699}
                       height={520}
                     />
@@ -194,8 +197,8 @@ const NearbyTours = () => {
                   >
                     <Image
                       className="rounded-xl"
-                      src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
-                      alt="Features Image"
+                      src="/images/takot-reef.jpg"
+                      alt="Freediving in Barcelona & Bulusan"
                       width={699}
                       height={520}
                     />
@@ -209,8 +212,8 @@ const NearbyTours = () => {
                   >
                     <Image
                       className="rounded-xl"
-                      src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
-                      alt="Features Image"
+                      src="/images/bulusan-falls.jpg"
+                      alt="Natural springs & rivers: Juban Nature Spring, Bulusan Kipot River, Gubat rivers"
                       width={699}
                       height={520}
                     />
@@ -224,8 +227,8 @@ const NearbyTours = () => {
                   >
                     <Image
                       className="rounded-xl"
-                      src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
-                      alt="Features Image"
+                      src="/images/miligabiga-beach.jpg"
+                      alt="Road less travelled: Miligabiga Beach, Buklad River Bulusan"
                       width={699}
                       height={520}
                     />
