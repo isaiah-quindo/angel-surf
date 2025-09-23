@@ -106,7 +106,7 @@ const Navbar = () => {
   };
 
   const linkBaseClass =
-    "text-pink-500 font-bold text-xl hover:text-pink-600 transition-colors duration-300 folkies-vantage";
+    "text-primary-500 font-bold text-xl hover:text-primary-600 transition-colors duration-300 folkies-vantage";
 
   return (
     <nav className="navbar flex flex-col items-center max-w-7xl mx-auto fixed top-0 left-0 right-0 z-50 px-4 xl:px-0 rounded-b-2xl">
@@ -114,7 +114,7 @@ const Navbar = () => {
         <div className="flex w-full items-center justify-between md:hidden">
           <Link href="#hero" aria-label="Angel Surf home">
             <Image
-              src="/images/logomark-pink.svg"
+              src="/images/logomark-primary.svg"
               alt="Angel Surf Logomark"
               width={64}
               height={64}
@@ -126,7 +126,7 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen((prev) => !prev)}
             aria-expanded={isMenuOpen}
             aria-controls="mobile-navigation"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-pink-500 text-pink-500 transition-colors duration-300 hover:bg-pink-500 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-primary-500 text-primary-500 transition-colors duration-300 hover:bg-primary-500 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
           >
             <span className="sr-only">Toggle navigation</span>
             {isMenuOpen ? (
@@ -176,7 +176,7 @@ const Navbar = () => {
             className="hidden md:flex"
           >
             <Image
-              src="/images/logomark-pink.svg"
+              src="/images/logomark-primary.svg"
               alt="Angel Surf Logomark"
               width={100}
               height={100}
