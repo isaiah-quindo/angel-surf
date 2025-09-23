@@ -133,8 +133,11 @@ const Hero = () => {
 
   return (
     <>
-      <div id="hero" className="mx-auto max-h-screen flex flex-col p-4 md:p-12">
-        <div className="hero relative flex flex-col justify-center items-center rounded-2xl overflow-hidden h-200 bg-blue-500">
+      <div
+        id="hero"
+        className="mx-auto min-h-screen max-h-screen flex flex-col p-4 md:p-12"
+      >
+        <div className="hero relative flex flex-col flex-1 justify-center items-center rounded-2xl overflow-hidden h-200 bg-blue-500">
           <Image
             className="hero-image w-full h-full object-cover filter blur-sm"
             src="/images/surfing-bg.jpg"
