@@ -26,7 +26,7 @@ const Navbar = () => {
     t1.to(".navbar", {
       translateY: 0,
       duration: 1,
-      delay: 3,
+      delay: 0,
       ease: "power2.inOut",
     })
       .to(".navbar", {
@@ -34,10 +34,9 @@ const Navbar = () => {
           trigger: ".navbar",
           start: "bottom top",
           end: "top bottom",
-          toggleActions: "play none reverse none",
+          toggleActions: "play none none none",
           scrub: 1,
         },
-        borderRadius: "1rem",
         margin: "1rem auto 0 auto",
         duration: 1,
         ease: "power2.inOut",
@@ -47,9 +46,11 @@ const Navbar = () => {
           trigger: ".navbar-wrapper",
           start: "bottom top",
           end: "bottom bottom",
-          toggleActions: "play none reverse none",
+          toggleActions: "play none none none",
+          scrub: 1,
         },
-        borderRadius: "1rem",
+        borderTopLeftRadius: "1rem",
+        borderTopRightRadius: "1rem",
         duration: 0.5,
         ease: "power2.inOut",
       });
