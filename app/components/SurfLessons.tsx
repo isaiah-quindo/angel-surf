@@ -5,9 +5,9 @@ const SurfLessons = () => {
   return (
     <div
       id="surf-lessons"
-      className="max-w-7xl mx-auto p-4 md:p-12 overflow-hidden"
+      className="max-w-7xl mx-auto px-4 md:px-12 py-20 overflow-hidden"
     >
-      <h2 className="text-5xl text-center text-blue-500 folkies-vantage mb-8">
+      <h2 className="text-3xl md:text-5xl text-center text-blue-500 folkies-vantage mb-8">
         Surf with the Local Champs
       </h2>
       <div className="flex flex-row flex-wrap justify-center items-start gap-8">
